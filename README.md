@@ -1,9 +1,9 @@
 ```mermaid
-flowchart TD
+graph TD
     %% Define Styles
-    classDef input fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
-    classDef process fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
-    classDef finding fill:#fff3e0,stroke:#ef6c00,stroke-width:2px;
+    classDef input fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:black;
+    classDef process fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:black;
+    classDef finding fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:black;
     classDef output fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:black,font-weight:bold;
 
     subgraph "Phase 1: Genomic Hygiene & Alignment"
